@@ -1,0 +1,192 @@
+@charset "utf-8";
+*
+{
+	font-family: "Trebuchet MS","Arial","Times New Roman", "sans-serif";
+}
+
+/* elements principales*/
+
+body
+{
+	background-image:url("image/IMG_0383.JPG");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.page
+{
+	width:100%;
+	margin:auto;
+}
+section h1,footer h1,nav a
+{
+	font-family:"trebuchet MS","Time New Roman"; 
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+header h1
+{
+	font-family:"Time New Roman","Arial","sans-serif";
+	font-size:3.5em;
+	font-weight:normal;
+}
+.logo1
+{
+	display:inline-block;
+	width:70px;
+	height:70px;
+}
+.logo
+{
+	display: inline-block;
+}
+.logo1,header h1
+{
+	display:inline-block;
+	margin-bottom: 0px;
+}
+header h2
+{
+	font-family:"Script MT Bold","Time New Roman","sans-serif";
+	font-size:1.5em;
+	margin-top:0px;
+	font-weight:normal;
+}
+hr
+{
+	width:1550px;
+}
+/*navigation*/
+nav
+{
+	display: inline-block;
+	text-align:right;
+	width:900px;
+}
+nav ul
+{
+	list-style: none;
+	display:flex;
+	margin-left:10px;
+	float:right;
+}
+nav a
+{
+	color:whitesmoke;
+}
+nav li
+{
+	padding:1.7px;
+	border: 1px solid aqua;
+	display:inline-block
+
+}
+nav a:hover
+{ 
+	color: greenyellow;
+    border-bottom: 1px solid greenyellow;
+}
+
+
+/*image accueil et auteur*/
+.imga
+{
+	min-width:30px;
+	min-height:20px;
+    max-width:200px;
+	max-height:200px;
+}
+.imagetete img 
+{
+	max-height:400px;
+	max-width:1000px;
+	min-height:350px;
+	min-width:1450px;
+	border-radius:5px;
+	background-repeat: no-repeat;
+	position:relative;
+	box-shadow: 0px 4px 4px #1c1a19;
+	margin-bottom:25px;
+}
+/*corp*/
+article, aside
+{
+	display:inline-block;
+	vertical-align: top;
+	text-align:justify;
+}
+
+#titre
+{
+	  text-decoration:underline;
+	font-size:1.1em;
+}
+article
+{
+	width:50%;
+	margin-right:15px;
+}
+
+article p
+{
+	font-size:1.8em;
+}
+
+aside
+{
+	position:relative;
+	width:40%;
+	background-color:#706b64;
+	box-shadow:0px 2px 5px #1c1a19;
+	border-radius:5px;
+	padding:10px;
+	color:white;
+	font-size:0.9em;
+	
+}
+/*peid de page*/
+#mail
+{
+	color:red;
+}
+footer div
+{
+	display:flex;
+    justify-content:space-between;
+    align-items: stretch;
+	/*display:inline-block;
+	vertical-align:top;
+	text-align:justify;*/
+}
+.pi1
+{ 
+	width:100px;
+	height:50px;
+    
+}
+.pi2
+{
+	width:150px;
+	height:70px;
+}
+.contact,.pimg1,.pimg2
+{
+	display:inline-block;
+	vertical-align: top;
+	text-align:justify;
+	position:relative;
+	box-shadow:0px 2px 5px #1c1a19;
+	border-radius:5px;
+	padding:10px;
+	color:white;
+	font-size:0.9em;
+}
+.formulaire
+{
+	border-radius:5px;
+	justify-content: center;
+}
+
+
+

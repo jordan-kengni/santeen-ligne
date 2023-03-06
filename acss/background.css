@@ -1,0 +1,55 @@
+@charset utf-8;
+nav
+{
+    background-image:url(../image/head.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+footer table
+{
+    background-image: url(../image/doc5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    color:white;
+   /* text-transform: uppercase;*/
+    overflow: hidden;
+}
+.service
+{
+    background-image: url(../image/nv1.jpg);
+   color: white;
+    background-attachment: fixed;
+    background-size: 1400px 300px;
+    
+}
+
+.medecins table
+{
+     background-image: url(../image/nv4.jpg);
+    color: white;
+    background-attachment: fixed;
+    background-size: 300px 300px;
+}
+.medecins img
+{
+    border-radius: 40%;
+}
+.actualite table
+{
+     background-image: url(../image/images.jpg);
+    color: whitesmoke;
+    background-attachment: fixed;
+    background-size: 344px 300px;
+}
+section .partenaire table 
+{
+     background-image: url(../image/head.jpg);
+    color: white;
+    background-attachment: fixed;
+    background-size: 444px 300px;
+}
+.th1
+{   text-decoration-style:dotted;
+    text-decoration-line: underline;
+}

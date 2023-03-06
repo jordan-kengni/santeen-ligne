@@ -1,0 +1,115 @@
+@charset utf-8;
+*
+{
+    box-sizing: border-box;
+}
+
+.logo
+{
+    float:left;
+}
+.droite
+{
+    float:right;
+}
+.date
+{
+    float:right;
+}
+
+
+.page
+{
+    max-width:1400px;
+        width:100%;
+    margin:0 auto;
+    position:relative;
+    overflow: hidden;
+    padding:50px 20px;
+}
+/*page d'acceuil */
+.service
+{
+    display: inline-block;
+    justify-content: center;
+   
+}
+
+.service div
+{
+    display: inline-block;
+   
+}
+#medecins 
+{
+    display:inline-block;
+}/*
+#medecins div
+{
+    display: inline-block;
+  justify-content: space-between;
+}
+/*
+#medecins div p
+{
+    font-size:22px;
+}*/
+.actualite
+{
+    display: inline-block;
+}/*
+.actualite div
+{
+    display:inline-block;
+    justify-content: space-between;
+}
+/*
+#column
+{
+    
+    flex-direction: column;
+}
+#column div
+{
+    display:inline-block;
+}*/
+.partenaire
+{
+    display: inline-block;
+   
+}
+/*
+table
+{
+    justify-content: center;
+}*/
+footer
+{
+    display: inline-block;
+}
+footer div
+{
+    display: inline-block;
+}
+#pied
+{
+    display: flex;
+    flex-direction: column;
+}
+#pied a
+{
+     text-decoration-line:none;
+    text-transform: uppercase;
+}
+#pied a:hover
+{
+    color: white;
+    border-bottom: 1px solid whitesmoke;
+
+    
+}
+#logo h1
+{
+    color: darkblue;
+}
+/*formulaire*/

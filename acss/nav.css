@@ -1,0 +1,29 @@
+@sharset utf-8;
+.nav
+{
+    list-style: none;
+    display: inline-block;
+}
+.nav li
+{
+    list-style: none;
+    display: inline-block;
+}
+.nav li a
+{
+    color: white;
+    padding:2px;
+    text-decoration-line: none;
+    text-transform:uppercase;
+    margin-left:20px;
+ 
+}
+footer div a
+{
+    color:white;
+}
+nav  a:hover
+{
+     color: whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+}
